@@ -1,25 +1,30 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "luminaris",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Luminaris",
+	"description": "There's nothing here yet, so have some lorem ipsum:\n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 	"authors": [
-		"Me!"
+		"rPersival [https://github.com/rPersival]",
+		"AlDeGwiN [https://github.com/AlDeGwiN]",
+		"ilwar",
+		"Kostabl",
+		"Schihoran",
+		"and everyone else who helped!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "will be later",
+		"sources": "https://github.com/rPersival/Luminaris"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/luminarium/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.rpersival.Luminarium"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.rpersival.LuminariumClient"
 		]
 	},
 	"mixins": [
