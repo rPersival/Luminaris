@@ -16,7 +16,7 @@
 		"homepage": "will be later",
 		"sources": "https://github.com/rPersival/Luminaris"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/luminarium/icon.png",
 	"environment": "*",
 	"entrypoints": {
