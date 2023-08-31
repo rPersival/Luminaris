@@ -1,5 +1,6 @@
 package com.rpersival;
 
+import com.rpersival.registry.RegistryHandler;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,5 +14,12 @@ public class Luminarium implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
+		registerEverything();
+	}
+
+	public static void registerEverything() {
+		RegistryHandler.registerGroups();
+		RegistryHandler.registerItems();
+		RegistryHandler.registerBlocks();
 	}
 }
